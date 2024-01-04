@@ -1,6 +1,6 @@
 on:
   push:
-    branches: reactCpanelB
+    branches: main
 
 env:
   VITE_APIKEY: ${{ secrets.VITE_APIKEY }}
